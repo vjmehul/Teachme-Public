@@ -1,0 +1,62 @@
+project:
+  awsSetup:
+    bucket: null
+    cpu: 2
+    memory: 10
+    region: null
+    rootDomain: null
+  events:
+    startServerStep: null
+    stopServerStep: null
+  id: null
+  live: true
+  maxRuntime: 60
+  name: null
+  researcher: null
+  ssl:
+    fullchain: SSL/fullchain.pem
+    privkey: SSL/privkey.pem
+    sslBucket: null
+  steps:
+    1: exampleConsent.html
+    2: null
+    3: null
+    4: null
+    5: null
+    finalStep: null
+  teamMembers: null
+  useAWS: false
+trial:
+  actionBufferLifespan: 1
+  actionSpace:
+  - noop
+  - left
+  - up
+  - right
+  - down
+  allowFrameRateChange: true
+  bucket: null
+  dataFile: episode
+  frameRateStepSize: 5
+  game: GDY-Labyrinth-v0
+  maxEpisodes: 20
+  maxFrameRate: 90
+  minFrameRate: 1
+  pSet: 44
+  projectId: null
+  s3upload: true
+  startingFrameRate: 40
+  ui:
+  - left
+  - up
+  - right
+  - down
+  - start
+  - stop
+  - good
+  - bad
+  - fpsSet
+  - fpsUp
+  - fpsDown
+  - demonstration
+  - stop demonstration

@@ -1,0 +1,34 @@
+trial:
+  actionBufferLifespan: 1
+  actionSpace:
+  - noop
+  - left
+  - up
+  - right
+  - down
+  allowFrameRateChange: true
+  bucket: null
+  dataFile: episode
+  frameRateStepSize: 5
+  game: GDY-Labyrinth-v0
+  maxEpisodes: 20
+  maxFrameRate: 90
+  minFrameRate: 1
+  pSet: 44
+  projectId: null
+  s3upload: true
+  startingFrameRate: 40
+  ui:
+  - left
+  - up
+  - right
+  - down
+  - start
+  - stop
+  - good
+  - bad
+  - fpsSet
+  - fpsUp
+  - fpsDown
+  - demonstration
+  - stop demonstration
